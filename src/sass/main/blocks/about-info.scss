@@ -1,0 +1,116 @@
+.section__about {
+  padding-top: 1px;
+  display: flex;
+  align-items: center;
+
+  .owl-carousel .owl-item img{
+    width: 44px;
+    margin: 0 auto 15px auto;
+  }
+}
+
+.about__infome-titles {
+  text-align: left;
+  p {
+    margin: 50px 0 5px 0;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 300px;
+      border: 2px solid $primary;
+      bottom: -5px;
+      left: 0;
+      position: absolute;
+    }
+  }
+}
+
+.about__infome-luzer_photo {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.about__infome-text {
+  position: relative;
+  padding: 0 !important;
+
+  p {
+    font-size: 17px;
+    line-height: 20px;
+    text-indent: 1.5em;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 0; height: 0;
+
+    background: url("../../../img/luzer-photo.png") center no-repeat;
+    background-size: cover;
+    margin-top: 17px;
+    left: -190px;
+  }
+}
+
+.about__services-title {
+  h3 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 35px;
+  }
+}
+
+.about__list {
+ margin-bottom: 10%;
+ margin-top: 5%;
+  .adventagers__item {
+
+    h3 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .about__infome-luzer_photo {
+    text-align: left;
+    img{
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .about__infome-luzer_photo {
+    img {
+      display: none !important;
+    }
+  }
+  .about__infome-text {
+    &::before{
+      width: 170px;
+      height: 170px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+    .about__infome-titles {
+      text-align: center;
+  }
+}

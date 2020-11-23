@@ -1,0 +1,31 @@
+                <div className="about__services wrap">
+                    {/* <Fade bottom> */}
+                        <div className="about__services-title center-align">
+                            <h3>My services</h3>
+                        </div>
+                        <ul className="about__list adventagers row">
+                            {/* <OwlCarousel {...optionsAdventagers}> */}
+                                <li className="adventagers__item center-align col-md-12">
+                                    <img src={require('../../img/adventager.png')} alt="" />
+                                    <h3>PRODUCT DESIGN</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quisquam sequi, dolor assumenda?.</p>
+                                </li>
+                                <li className="adventagers__item center-align col-md-12">
+                                    <img src={require('../../img/adventager.png')} alt="" />
+                                    <h3>PRODUCT DESIGN</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quisquam sequi, dolor assumenda?.</p>
+                                </li>
+                                <li className="adventagers__item center-align col-md-12">
+                                    <img src={require('../../img/adventager.png')} alt="" />
+                                    <h3>PRODUCT DESIGN</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quisquam sequi, dolor assumenda?.</p>
+                                </li>
+                                <li className="adventagers__item center-align col-md-12">
+                                    <img src={require('../../img/adventager.png')} alt="" />
+                                    <h3>PRODUCT DESIGN</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quisquam sequi, dolor assumenda?.</p>
+                                </li>
+                            {/* </OwlCarousel> */}
+                        </ul>
+                    {/* </Fade> */}
+                </div>
