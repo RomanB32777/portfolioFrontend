@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98fddf6b10ea1ecec08d7483d87c3bb69e1b88c7
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -44,9 +47,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+<<<<<<< HEAD
 =======
 # portfolioFrontend
 >>>>>>> 4a4f184cca6fe3c7cd6d6507ec5620ebf50518d1
 =======
 # portfolioFrontend
 >>>>>>> 4a4f184cca6fe3c7cd6d6507ec5620ebf50518d1
+=======
+>>>>>>> 98fddf6b10ea1ecec08d7483d87c3bb69e1b88c7

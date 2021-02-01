@@ -69,7 +69,6 @@ const loadPosts = async () => {
 }
 
 const loadUser = async () => {
-
   try {
     const local = (localStorage.getItem(storageName))?.toString()
     if (local) {

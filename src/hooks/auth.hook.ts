@@ -5,7 +5,6 @@ import { useHttp } from './http.hook';
 import { useCallback, useState, useEffect, useContext } from 'react'
 import { IUser } from '../interfaces/contentInterfaces/users/IUser';
 
-
 export const storageName = 'userData'
 
 export const useAuth = () => {
