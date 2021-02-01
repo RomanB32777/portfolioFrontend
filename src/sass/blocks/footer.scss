@@ -1,0 +1,156 @@
+.footer {
+  background-color: #323232;
+  color: $white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+  &__circle, &__circle-mobile {
+    position: absolute;
+    margin: -11rem;
+    width: 280px;
+    height: 280px;
+    transform: translateY(100%);
+    // top: -350%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 75px rgba($primary, 0.75);
+    content: "";
+    z-index: -1;
+  }
+  &__cercle {
+    left: 0;
+  }
+  &__cercle-mobile {
+    right: 0;
+  }
+}
+
+.footer__nav {
+  padding-left: 20px !important;
+  padding-right: 30px !important;
+}
+.nav__list {
+  display: none;
+  margin: 35px 0 0 0;
+
+  .nav__item {
+    a {
+      text-transform: uppercase;
+      color: $white;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 21px;
+      transition: 0.3s;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.footer__logo {
+  display: none;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  .links__item {
+    font-size: 35px;
+    margin-right: 16px;
+
+    &:nth-child(3) {
+      margin-right: 0;
+    }
+    a {
+      color: $white;
+      transition: 0.3s;
+      &:hover {
+        color: $primary;
+      }
+      
+    }
+  }
+}
+
+.footer__title {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  margin-bottom: 7px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.footer__subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 0;
+  text-align: left;
+}
+
+
+.footer__year {
+  text-align: center;
+  p {
+    padding-left: 50px;
+  }
+
+}
+
+// @media (max-width: 400px) {
+//   .footer {
+//     .footer__circle {
+//       top: -280%;
+//     }
+//   }
+// }
+
+@media (min-width: 1000px) {
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__logo {
+    display: block;
+  }
+
+  .footer__links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 990px) {
+ // and (min-width: 500px)
+  .footer {
+    &__circle {
+      //top: -300%;
+      right: 0;
+    }
+  }
+}
+
+@media (min-width: 990px) {
+  .footer {
+    &__circle {
+      // top: -150px;
+      // left: -5%;
+      // width: 560px;
+      // height: 560px;
+      // box-shadow: 0 0 0 100px rgba($primary, 0.75);
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .footer {
+    &__year p {
+      padding-left: 0;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.create-img {
+  &__single {
+    position: relative;
+
+    a {
+      position: absolute;
+      top: 0;
+      right: 0;
+      //   width: 25px;
+      //   height: 25px;
+      //   border: 1px solid black;
+      //   cursor: pointer;
+      //   text-align: center;
+    }
+  }
+
+  &__multiple {
+    .img-container__single {
+      position: relative;
+      a {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+}

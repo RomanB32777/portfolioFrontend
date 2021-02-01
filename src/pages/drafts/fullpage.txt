@@ -1,0 +1,81 @@
+ import ReactFullpage from "@fullpage/react-fullpage";
+import IScroll from 'fullpage.js/vendors/scrolloverflow';
+
+      {/* <ReactFullpage
+        render={() => { if (ready) return( 
+          <ReactFullpage.Wrapper>
+          </ReactFullpage.Wrapper>
+        )}
+        }
+      /> */}
+
+ <div id="fullpage pt-2">
+        <ReactFullpage
+         // licenseKey={"YOUR_KEY_HERE"}
+          scrollingSpeed={1000}
+          navigation={true}
+          pointer-events='none'
+          scrollOverflow={true}
+          // autoScrolling={false}
+          // controlArrows={false}
+
+          //scrollOverflow={true}
+          fitToSection={false}
+          render={() => {
+            return (
+              <ReactFullpage.Wrapper>
+                <div className="section">
+                  <div id="main" className="section__header ">
+                    <header className="header" >
+                   
+                      <div className="container">
+                        <div className="header__wrap wrap">
+                   
+                          <div className="header__titles">
+                            <h1 className="header__title">
+                              Backend и Frontend <br /> разработка{" "}
+                              <span>веб</span>
+                              -приложений
+                            </h1>
+                            <h2 className="header__subtitle">
+                              Личный сайт веб разработчика <br /> Романа
+                              Богдановского
+                            </h2>
+                          </div>
+                          <div className="header__button">
+                            <a
+                              className="header__works waves-effect waves-light orange btn-large"
+                              href="#modal1"
+                            >
+                              Посмотреть работы
+                            </a>
+                          </div>
+                          <div className="header__scroll center-align">
+                            <p>Скрольте ниже</p>
+                           
+                            <div className="mouse">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                              <i className="arrow down"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </header>
+                  </div>
+                </div>
+                <div className="section fp-auto-height">
+                  <AboutMeSection />
+                </div>
+                <div className="section ">
+                  <SomeWorksSection />
+                </div>
+                <div className="section ">
+                  <ContactsSection />
+                </div>
+              </ReactFullpage.Wrapper>
+            );
+          }}
+        />
+      </div>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// @import "normalize";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+
+@import "UI/file-inputs";
+@import "UI/img";
+@import "blocks/fixed";
+@import "blocks/loader";
+@import "main/blocks/header";
+@import "main/blocks/about-info";
+@import "main/blocks/works";
+@import "main/blocks/section-wrapper";
+@import "blocks/footer";
